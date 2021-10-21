@@ -1,24 +1,20 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import React from 'react';
 import './App.css';
+import Home from './pages';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+         <Route path='/' component={Home} exact />
+         <Route path='/login' component={Home} exact />
+         <Route path='/self-schedule' component={()=> window.open('https://pteverywhere.com/PtE/2ndtonone/bookingonline', '_blank')}/>
+         <Route path='/registration' component={() => window.open('https://pteverywhere.com/PtE/s/2ndtonone/register',  '_blank')}/>
+         <Route path='/yelp' component={() => window.open('https://pteverywhere.com/PtE/s/2ndtonone/register')}/>
+         <Route path='/social-media' component={(Home) => window.open('https://pteverywhere.com/PtE/s/2ndtonone/register')}/>
+      </Switch>
+    </Router>
   );
 }
 

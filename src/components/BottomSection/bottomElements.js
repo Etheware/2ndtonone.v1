@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 
 export const BottomContainer = styled.div`
-    margin-top: 20%;
     background: #0c0c0c;
     display: flex;
     justify-content: center;

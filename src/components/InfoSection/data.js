@@ -33,8 +33,8 @@ export const homeObjTwo = {
 };
 export const homeObjTestimonial1 = {
     id: 'testimonials',
-    lightBg: true,
-    lightText: false,
+    lightBg: false,
+    lightText: true,
     lightTextDesc: true,
     topLine: "Testimonials",
     headline: "Brenda S. of Los Angeles, CA | Yelp Review",
@@ -49,8 +49,8 @@ export const homeObjTestimonial1 = {
 };
 export const homeObjTestimonial2 = {
     id: 'testimonials',
-    lightBg: true,
-    lightText: false,
+    lightBg: false,
+    lightText: true,
     lightTextDesc: true,
     topLine: "Yelp Review",
     headline: "Cade L. of San Diego, CA | Yelp Review",
@@ -65,39 +65,6 @@ export const homeObjTestimonial2 = {
 };
 
 export const homeObjThree = {
-    id: 'resources',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: true,
-    topLine: "Resources",
-    headline: "2nd To None offers free resources for everyone",
-    description: "2nd to None PT supports numerous non-profit organizations both financially and through their time and effort. 2nd to None PT enjoys focusing their efforts on giving back to the less fortunate and Veterans with mentorship and guidance so that they may pursue post-professional training and higher positions of power in their communities.",
-    buttonLabel: 'Browse Resources',
-    imgStart: false,
-    img: require('../../images/resources.jpg').default,
-    alt: 'resources',
-    dark: true,
-    primary: true,
-    darkText: false,
-};
-export const homeObjFour = {
-    id: 'pt-everywhere',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: true,
-    topLine: "Self Scheduling",
-    headline: "Online Booking has never been so Quick & Easy",
-    description: "Are you ready to begin your pain free, active lifestyle? With self-scheduling, book an appointment anytime, anywhere. With 2nd To None Physical Therapy, know care fits around your schedule.",
-    buttonLabel: 'Get Started',
-    imgStart: false,
-    img: require('../../images/11.jpg').default,
-    alt: 'herologo',
-    dark: true,
-    primary: true,
-    darkText: false,
-};
-
-export const homeObjFive= {
     id: 'social-media',
     lightBg: false,
     lightText: true,
@@ -113,6 +80,40 @@ export const homeObjFive= {
     primary: true,
     darkText: false,
     path: 'social-media'
+};
+
+export const homeObjFour = {
+    id: 'pt-everywhere',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: true,
+    topLine: "Self Scheduling",
+    headline: "Online Booking has never been so Quick & Easy",
+    description: "Are you ready to begin your pain free, active lifestyle? With self-scheduling, book an appointment anytime, anywhere. With 2nd To None Physical Therapy, know care fits around your schedule.",
+    buttonLabel: 'Get Started',
+    imgStart: false,
+    img: require('../../images/12.jpg').default,
+    alt: 'herologo',
+    dark: true,
+    primary: true,
+    darkText: false,
+};
+
+export const homeObjFive = {
+    id: 'resources',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: true,
+    topLine: "Resources",
+    headline: "2nd To None offers free resources for everyone",
+    description: "2nd to None PT supports numerous non-profit organizations both financially and through their time and effort. 2nd to None PT enjoys focusing their efforts on giving back to the less fortunate and Veterans with mentorship and guidance so that they may pursue post-professional training and higher positions of power in their communities.",
+    buttonLabel: 'Browse Resources',
+    imgStart: false,
+    img: require('../../images/resources.jpg').default,
+    alt: 'resources',
+    dark: true,
+    primary: true,
+    darkText: false,
 };
 
 export const homeObjSix = {
@@ -131,14 +132,14 @@ export const homeObjSix = {
     primary: true,
     darkText: false,
 };
-export const homeObjSeven= {
-    id: '',
-    lightBg: true,
-    lightText: false,
+export const homeObjSeven = {
+    id: 'pt-everywhere',
+    lightBg: false,
+    lightText: true,
     lightTextDesc: true,
     topLine: "PT Everywhere",
     headline: "Create an Account or Login",
-    description: "Schdeduling has never been easier, Click the link below to login or create your free account now. ",
+    description: "Schdeduling has never been easier, begin by logging in or creating your free account. ",
     buttonLabel: "Let's Go",
     imgStart: false,
     img: require('../../images/herologo.jpg').default,

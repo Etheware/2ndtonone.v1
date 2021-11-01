@@ -5,16 +5,22 @@ import InfoSection from '../components/InfoSection';
 import { homeObjOne, homeObjTwo, homeObjTestimonial1, homeObjTestimonial2,  homeObjThree, homeObjFour, homeObjFive, homeObjSix, homeObjSeven } from '../components/InfoSection/data';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
-import { missionSectionObjOne, missionSectionObjTwo } from '../components/MissionSection/data';
+import { missionSectionObjOne } from '../components/MissionSection/data';
 import MissionSection from '../components/MissionSection';
 import Values from '../components/ValuesSection/steps';
+import FooterBox from '../components/footer/footer';
+import VideoElement from '../components/VideoSection';
+import Seminar from '../components/Seminar';
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false);
+    
 
     const toggle = () => {
         setIsOpen(!isOpen);
     };
+
+    ;
 
     return (
     
@@ -30,10 +36,13 @@ const Home = () => {
             <Values/>
             <InfoSection {...homeObjThree} />
             <InfoSection {...homeObjFive} /> 
+            <BottomElement />
             <InfoSection {...homeObjSeven} /> 
             <InfoSection {...homeObjFour} /> 
+            <VideoElement />
             <InfoSection {...homeObjSix} /> 
-            <BottomElement />
+            <Seminar />
+            <FooterBox />
         </>
     );
 };

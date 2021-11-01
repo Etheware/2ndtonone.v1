@@ -2,12 +2,13 @@ import styled from 'styled-components';
 
 export const MissionContainer = styled.div`
     color: '#000000';
-    background: ${({darkBg}) => (darkBg ? '#000000' : '#fff')};
-    margin-top: 500px;
+    background: ${({darkBg}) => (darkBg ? '#fff' : '#000000')};
+    padding-top: 10%;
+    
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1200px) {
         padding: 100px 0;
-        margin-top: 100px;
+        margin-bottom: 10%;
     }
 `;
 
@@ -34,7 +35,7 @@ export const MissionRow = styled.div`
 
 export const MissionColumn1 = styled.div`
     margin-bottom: 15px;
-    padding: 0 15px;
+    padding: 0 65px;
     grid-area: col2;
 `
     
@@ -67,7 +68,7 @@ export const MissionHeading = styled.h1`
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
-    color: ${({ lightText }) => (lightText ? '#black' : '000000')
+    color: ${({ lightText }) => (lightText ? '#fff' : 'black')
 };
 
     @media screen and (max-width: 480px) {
@@ -80,47 +81,31 @@ export const MissionSubtitle = styled.p`
     margin-bottom: 35px;
     font-size: 18px;
     line-height: 24px;
-    color: ${({darkText}) => (darkText ? '#fff' : '#010606')};
+    color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
 `
 
 export const MissionImgWrap = styled.div`
-    max-width: 555px;
+    max-width: 755px;
     height: 100%;
 
-    @media screen and (max-width: 560px) {
-        font-size: 40px;
+    @media screen and (max-width: 1200px) {
         width: 100%;
-        margin-top: -200px;
     }
 `
 
 export const MissionImg = styled.img `
-    border: 2px solid whitesmoke;
-    margin: 0 10px 10px 5px;
-    max-width: 570px;
-    padding-right: 0;
+    width: 100%;
 
-    @media screen and (max-width: 960px) {
-        font-size: 40px;
+    @media screen and (max-width: 1200px) {
         width: 100%;
-        margin-top: -200px;
-    }
-    @media screen and (max-width: 768px) {
-        width: 100%;
-        margin-top: 150px;
     }
 `
 
 export const MissionImg2 = styled.img `
-    max-width: 600px;
-    margin: 0 0 10px 0;
-    padding-right: 0;
+    width: 100%;
+    margin-top: -50%;
 
-    @media screen and (max-width: 960px) {
-        font-size: 40px;
+ @media screen and (max-width: 1200px) {
         width: 100%;
-        margin-top: 10px;
     }
-
-
 `

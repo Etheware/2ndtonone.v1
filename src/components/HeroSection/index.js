@@ -1,7 +1,7 @@
 import React, { useState, useEffect }  from 'react';
 import { animateScroll as scroll } from 'react-scroll';
 import { Button } from '../buttonElement';
-import Video from '../../videos/video.mp4';
+import Video from '../../videos/2.mp4';
 
 // import Image from '../../images/herologo.jpg';
 import { 
@@ -51,8 +51,7 @@ const HeroSection = ({toggle}) => {
     return (
         <HeroContainer>
             <HeroBg>
-                <VideoBg autoPlay loop muted src= {Video} type='video/mp4' id='home'/>
-                
+                <VideoBg autoPlay loop muted src= {Video} type='video/mp4' id='home'/>         
             </HeroBg>    
             <HeroContent>
                 <HeroH1>2nd to None PT | San Marcos, CA</HeroH1>
@@ -60,7 +59,7 @@ const HeroSection = ({toggle}) => {
                 <HeroP>
                     Tired of fearing pain?          
                     Tired of not being able to do the things you love? Tired of missing out on life?
-                    2nd to None Physical Therapy provides top of the line hysical therapy, Sports Rehabilitation and Strength & Conditioning.
+                    2nd to None Physical Therapy provides top of the line physical therapy, sports rehabilitation and strength & conditioning.
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button 

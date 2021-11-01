@@ -1,5 +1,5 @@
 
-import Video2 from '../../videos/bw.mp4';
+import Video2 from '../../videos/3.mp4';
 
 // import Image from '../../images/herologo.jpg';
 import { 

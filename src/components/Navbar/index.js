@@ -101,7 +101,6 @@ const Navbar = ({ toggle }) => {
                                     >Our Mission
                                 </NavLinks>
                             </NavItem>
-
                             <NavItem>
                                 <NavLinks 
                                     to="values"
@@ -116,7 +115,7 @@ const Navbar = ({ toggle }) => {
                             <NavItem>
                                 <NavBtn>
                                     <NavBtnLink 
-                                        to='/registration'
+                                        to='/register'
                                         // onClick={toggleHome}
                                         onClick={toggleBottom}
                                         smooth={true}
@@ -126,12 +125,10 @@ const Navbar = ({ toggle }) => {
                                         offset={-80}>Get Started</NavBtnLink>
                                 </NavBtn>
                             </NavItem>
-
                             <NavItem>
                                 <NavBtn2>
                                     <NavBtnLink2 
                                         to='/self-schedule'
-                                        // onClick={toggleHome}
                                         onClick={toggleBottom}
                                         smooth={true}
                                         duration={500}
@@ -140,8 +137,7 @@ const Navbar = ({ toggle }) => {
                                         offset={-80}>Self Schedule
                                     </NavBtnLink2>
                                 </NavBtn2>
-                            </NavItem>
-                            
+                            </NavItem>           
                         </NavMenu>
                     </NavbarContainer>
                 </Nav>

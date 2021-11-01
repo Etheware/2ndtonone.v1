@@ -20,3 +20,20 @@ export const missionSectionObjOne = {
     primary: true,
     darkText: false
 }
+
+export const missionSectionObjTwo = {
+    id: 'about',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: true,
+    topLine: "2nd to None PT | San Marcos, CA",
+    headline: "Why Us?",
+    description: "As an avid thrill-seeker, Dr. Rick knows what it takes to perform at a high-level when playing a multitude of sports such as: soccer, mountain biking, Olympic weightlifting, snowboarding, CrossFit, skateboarding, sprinting, football, etc. Plus, Dr. Rick will be the only healthcare professional managing your plan of care and he will be with you throughout every minute of your treatment",
+    imgStart: false,
+    img: require('../../images/6.jpg').default,
+    alt: 'testimonials',
+    dark: false,
+    buttonLabel: 'Read More',
+    primary: false,
+    darkText: false,
+};

@@ -8,6 +8,7 @@ export const ValuesContainer = styled.div`
     justify-content: center;
     align-items: center;
     background: #ffff;
+    margin-bottom: 5%;
     
 
     @media screen and (max-width: 768px) {

@@ -4,6 +4,7 @@ import { Link as LinkR } from 'react-router-dom';
 export const SeminarContainer = styled.div `
     color: #000000;
     background: ${({lightBg}) => (lightBg ? '#000000' : '#fff')};
+    margin-top: -5%;
     
     @media screen and (max-width: 1200px) {
         padding: 100px 0;

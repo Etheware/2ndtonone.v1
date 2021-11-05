@@ -35,13 +35,9 @@ const Home = () => {
             <MissionSection {...missionSectionObjOne}/>
             <Values/>
             <InfoSection {...homeObjThree} />
-            <InfoSection {...homeObjFive} /> 
-            <BottomElement />
-            <InfoSection {...homeObjSeven} /> 
-            <InfoSection {...homeObjFour} /> 
             <VideoElement />
-            <InfoSection {...homeObjSix} /> 
             <Seminar />
+            <BottomElement />
             <FooterBox />
         </>
     );

@@ -54,12 +54,12 @@ const HeroSection = ({toggle}) => {
                 <VideoBg autoPlay loop muted src= {Video} type='video/mp4' id='home'/>         
             </HeroBg>    
             <HeroContent>
-                <HeroH1>2nd to None PT | San Marcos, CA</HeroH1>
+                <HeroH1>2nd Best PT | San Diego, CA</HeroH1>
                 <HeroH2>Physical Therapy and Wellness</HeroH2>
                 <HeroP>
                     Tired of fearing pain?          
                     Tired of not being able to do the things you love? Tired of missing out on life?
-                    2nd to None Physical Therapy provides top of the line physical therapy, sports rehabilitation and strength & conditioning.
+                    2nd Best Physical Therapy provides top of the line physical therapy, sports rehabilitation and strength & conditioning.
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button 

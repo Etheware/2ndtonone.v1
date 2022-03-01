@@ -74,7 +74,7 @@ const Navbar = ({ toggle }) => {
                                     exact='true'
                                     offset={-80}
                                 >
-                                    About 2nd to None
+                                    About 2nd Best PT
                                 </NavLinks>
                             </NavItem> 
                             

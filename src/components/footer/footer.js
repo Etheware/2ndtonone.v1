@@ -21,33 +21,33 @@ const FooterBox = () => {
       <h1 style={{ color: "gray", 
         textAlign: "center", 
         marginBottom: "80px" }}>
-        2nd to None PT | San Marcos, CA
+        2nd To Everyone PT | San Farcos, CA
       </h1>
       <Container>
         <Row>
           <Column>
             <Heading>Contact Us</Heading>
-            <FooterLink href="https://www.yelp.com/map/2nd-to-none-physical-therapy-san-marcos-2"><FaAddressBook/> Our Address: 737 Windy Point Dr Ste H & I San Marcos, CA 92069</FooterLink>
-            <FooterLink href=""><MdPhoneIphone/>Phone Number:  (760)-759-3494</FooterLink>
-            <FooterLink href="#"><MdEmail/>Email: rick.chavez@2ndtononept.com</FooterLink>
+            <FooterLink href="https://www.yelp.com"><FaAddressBook/> Our Address: 123 French Fry Dr Ste 69 & I San Farcos, CA 91100</FooterLink>
+            <FooterLink href=""><MdPhoneIphone/>Phone Number:  (000)-123-4567</FooterLink>
+            <FooterLink href="#"><MdEmail/>Email: solutions@etheware.com</FooterLink>
           </Column>
           <Column>
             <Heading>For You</Heading>
             <FooterLink id="resources">Resources</FooterLink>
             <FooterLink href="https://pteverywhere.com/">PT Everywhere</FooterLink>
             <FooterLink href="">Self-Schedule</FooterLink>
-            <FooterLink href="https://pteverywhere.com/PtE/s/2ndtonone/register">Register</FooterLink>
+            <FooterLink href="https://twitter.com/">Register</FooterLink>
           </Column>
           <Column>
             <Heading>Find Us</Heading>
-            <FooterLink href="https://www.instagram.com/2ndtononept/">Instagram</FooterLink>
-            <FooterLink href="https://www.yelp.com/biz/2nd-to-none-physical-therapy-san-marcos-2">Yelp</FooterLink>
-            <FooterLink href="https://www.instagram.com/rick_b_chavez/">Follow Dr. Rick on IG</FooterLink>
-            <FooterLink href="https://www.yelp.com/map/2nd-to-none-physical-therapy-san-marcos-2">Get Directions</FooterLink>
+            <FooterLink href="https://www.instagram.com/ethewaresolutions/">Instagram</FooterLink>
+            <FooterLink href="https://www.yelp.com">Yelp</FooterLink>
+            <FooterLink href="https://www.instagram.com/ethewaresolutions/">Follow Dr. Gluteas Maximus on IG</FooterLink>
+            <FooterLink href="https://www.instagram.com/ethewaresolutions/">Get Directions</FooterLink>
           </Column>
           <Column>
             <Heading>More Links</Heading>
-            <FooterLink href="https://www.linkedin.com/in/rick-b-chavez">
+            <FooterLink href="https://www.linkedin.com/in/etheware">
               <i className="fab fa-facebook-f">
                 <span style={{ marginLeft: "10px" }}>
                   Linkedin
@@ -71,7 +71,7 @@ const FooterBox = () => {
               <ButtonLink href="/insurance-policy">Why We Don't Accept Insurance</ButtonLink>     
             </LinkBox>
           <BoxP>
-            <p>Interest-Based Copyright© 2022, 2ndtonone.com, and its affiliates.</p>
+            <p>Interest-Based Copyright© 2023, etheware.com, and its affiliates.</p>
           </BoxP>
         </BottomBox>
       </Container>

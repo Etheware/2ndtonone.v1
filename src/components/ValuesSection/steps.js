@@ -28,7 +28,7 @@ const Values = () => {
                     <ValuesCard>
                         <ValuesIcon src={Icon2}/>
                         <ValuesH2>Part 2: Find the root cause! </ValuesH2>
-                        <ValuesP>Often, we think knee pain is cause by the knee (duh). This is a common misconception. Dr. Rick will perform a thorough 75-min evaluation to determine where the pain is coming from and how to correct any movement faults.</ValuesP>
+                        <ValuesP>Often, we think knee pain is cause by the knee (duh). This is a common misconception. Dr. Maximus will perform a thorough 75-min evaluation to determine where the pain is coming from and how to correct any movement faults.</ValuesP>
                     </ValuesCard>
 
                     <ValuesCard>
